@@ -2,7 +2,7 @@
     "name": "UNIQUE-PAIR",
     "description": "UNIQUE-MD WA bot, Created by Venocyber King jux and wasixd programmer to simplify your digital lives",
     "logo": "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg",
-    "repository": "https://github.com/kingjux/Venocyber-Md-Session",
+    "repository": "https://github.com/kingjux/UNIQUE-PAIR",
     "keywords": ["UniqueMd"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
