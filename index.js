@@ -59,7 +59,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +923042205427")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +255698101622")))
             process.exit(0)
          }
       } else {
@@ -113,7 +113,7 @@ https://chat.whatsapp.com/HSln3blDuuuKvC8njxyCCN
 
 
 ❇️Cʜᴀɴɴᴇʟ ʟɪɴᴋ❇️
-https://whatsapp.com/channel/0029VaJmfmTDJ6H7CmuBss0o
+https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
 
 
 🛡️TᕼE-ᑌᑎIᑫᑌE-ᗰᗪ🛡️
