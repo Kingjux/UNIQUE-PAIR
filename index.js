@@ -63,14 +63,14 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`wᴇʟcoмᴇ тo ᴘʀιɴcᴇ ʙoт ᴘᴀιʀ ᴘᴀԍᴇ😍
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`wᴇʟcoмᴇ тo ᴜɴɪǫᴜᴇ ᴍᴅ ᴘᴀιʀ ᴘᴀԍᴇ😍
          
 
 ɴow ᴇɴтᴇʀ ʏouʀ ɴuмʙᴇʀ wιтнouт ᴘʟus "+"   sιԍɴ 
 
 
 
-ᴇxᴀмᴘʟᴇ:  923040000427
+ᴇxᴀмᴘʟᴇ:  255698101622
 
 
 
@@ -79,7 +79,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +923042205427")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +255698101622")))
 
             phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`wᴇʟcoмᴇ тo ᴘʀιɴcᴇ ʙoт ᴘᴀιʀ ᴘᴀԍᴇ.
 
