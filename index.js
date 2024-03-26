@@ -81,11 +81,11 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
             console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +255698101622")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`wᴇʟcoмᴇ тo ᴘʀιɴcᴇ ʙoт ᴘᴀιʀ ᴘᴀԍᴇ.
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`wᴇʟcoмᴇ тo ᴜɴɪǫᴜᴇ ᴍᴅ ᴘᴀιʀ ᴘᴀԍᴇ.
 
 ɴow ᴇɴтᴇʀ ʏouʀ ɴuмʙᴇʀ wιтнouт ᴘʟus   +   sιԍɴ 
 
-ᴇxᴀмᴘʟᴇ:  923040000000`)))
+ᴇxᴀмᴘʟᴇ:  255698101622`)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
